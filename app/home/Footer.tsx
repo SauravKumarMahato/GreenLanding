@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
         {stats.map((stat, index) => (
           <React.Fragment key={index}>
             <div className="flex flex-col items-center mx-8 text-center">
-              <div className="text-3xl font-bold">{stat.value}</div>
+              <div className=" text-xl md:text-3xl font-bold">{stat.value}</div>
               <div className="text-sm mt-2">{stat.description}</div>
             </div>
             {index < stats.length - 1 && (

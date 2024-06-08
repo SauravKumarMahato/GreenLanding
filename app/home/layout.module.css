@@ -18,7 +18,7 @@
     height: 550px;
     display: flex;
     flex-direction: column;
-  }
+}
 
   .contribute {
     background-image: url('/green.jpg');
@@ -64,4 +64,8 @@
   .text-bodoni {
     font-family: 'Bodoni', serif;
   }
-  
+  @media (max-width: 768px) {
+    .plant_layout {
+        background-image: none;
+    }
+}

@@ -6,7 +6,7 @@ const BaseFooter = () => {
   return (
     <div>
       <footer className="bg-gray-800 text-white py-4 px-4 flex flex-wrap justify-between">
-        <div className="mx-20 grid grid-cols-4 gap-52 my-10">
+        <div className="mx-6 md:mx-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-52 my-10">
           <div className="">
             <div className="mb-4 text-3xl font-bold ">Connect on Social </div>
             <div className="flex gap-4">
@@ -22,7 +22,7 @@ const BaseFooter = () => {
             </div>
           </div>
 
-          <div className="grid gap-16">
+          <div className="grid gap-4 md:gap-12">
             <a href="#" className="inline-block text-white font-bold relative">
               About Us
               <div
@@ -56,7 +56,7 @@ const BaseFooter = () => {
             </a>
           </div>
 
-          <div className="grid ">
+          <div className="grid gap-4">
             <div>
               <a
                 href="#"
@@ -101,9 +101,9 @@ const BaseFooter = () => {
             </div>
           </div>
         </div>
-
-        <div className="grid grid-cols-2 items-center border-t-2 border-white mx-20 mb-4">
-          <div className="mx-20 my-4">
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center border-white md:mx-20 mb-4">
+          <div className="mx-4 md:mx-20 my-4">
             <a
               href="#"
               className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -120,7 +120,7 @@ const BaseFooter = () => {
               </div>
             </a>
           </div>
-          <div className="text-xl pr-20 ml-60">
+          <div className="text-sm text-gray-400 md:text-xl md:pr-20 ml-20 md:ml-60">
             All rights reserved to GreenEco
           </div>
         </div>
