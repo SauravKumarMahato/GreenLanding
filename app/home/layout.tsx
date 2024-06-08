@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import AboutPage from "./About";
 import BaseFooter from "./BaseFooter";
 import Contribute from "./Contribution";
+import NewsUpdate from "./NewsUpdate";
 
 type LayoutProps = {
   children: ReactNode;
@@ -30,6 +31,10 @@ const Layout = ({ children }: LayoutProps) => {
 
       <div className={styles.contribute}>
         <Contribute />
+      </div>
+
+      <div className={styles.news_update}>
+        <NewsUpdate />
       </div>
       <BaseFooter />
     </>

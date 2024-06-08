@@ -45,8 +45,7 @@ const Contribute: React.FC = () => {
             title={card.title}
             description={card.description}
             tags={card.tags}
-            width={500}
-            height={200}
+            text={'Contribute'}
           />
         ))}
       </div>

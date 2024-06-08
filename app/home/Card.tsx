@@ -7,8 +7,7 @@ interface CardProps {
   title: string;
   description: string;
   tags: string[];
-  width: number;
-  height: number;
+  text: string;
 }
 
 const Card: React.FC<CardProps> = ({
@@ -16,12 +15,12 @@ const Card: React.FC<CardProps> = ({
   title,
   description,
   tags,
-  width,
-  height,
+  text
+
 }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 bg-green-50">
-      <div className="w-full h-48 relative">
+      <div className="w-full  h-48 relative">
         <Image
           className="object-cover"
           src={image}
@@ -38,7 +37,7 @@ const Card: React.FC<CardProps> = ({
         </div>
         <p className="text-gray-700 text-base text-center">{description}</p>
       </div>
-      <div className="rounded-md border-solid bg-green-400 mx-36 px-2 py-2 text-center">Contribute</div>
+      <div className="rounded-md border-solid bg-green-400 mx-36 px-2 py-2 text-center">{text}</div>
       <div className="px-6 pt-4 pb-2">
         {tags.map((tag, index) => (
           <span
