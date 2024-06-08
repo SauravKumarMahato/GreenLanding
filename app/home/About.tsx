@@ -38,7 +38,7 @@ const AboutPage: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container px-3 mx-auto py-8">
       <h1 className={`${styles["text-bodoni"]} text-5xl font-bold mb-10`}>About Us</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Map over the list and create HTML elements for each objective */}
