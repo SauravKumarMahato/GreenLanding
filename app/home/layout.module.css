@@ -1,0 +1,63 @@
+/* layout.module.css */
+.layout {
+    background-image: url('/background1/5570865.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .plant_layout {
+    background-image: url('/new2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contribute {
+    background-image: url('/green.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer {
+    background-image: url('/footer_background/5192479.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh; /* Set the desired height for the footer */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Change text color as needed */
+  }
+
+  .about_page {
+    background-color: #f7f5f2;
+  }
+
+  /* bodoni.module.css */
+
+@font-face {
+    font-family: 'Bodoni';
+    src: url('/path/to/bodoni.woff2') format('woff2'),
+         url('/path/to/bodoni.woff') format('woff');
+    /* Add more src lines if you have additional font file formats */
+    /* Optionally, you can specify font-weight and font-style here */
+  }
+  
+  .text-bodoni {
+    font-family: 'Bodoni', serif;
+  }
+  
