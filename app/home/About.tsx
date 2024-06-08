@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './layout.module.css'
 
 const AboutPage: React.FC = () => {
   const objectives = [
@@ -38,12 +39,12 @@ const AboutPage: React.FC = () => {
 
   return (
     <div className="container mx-auto py-8">
-      <h1 className="text-5xl font-bold mb-10">About Us</h1>
+      <h1 className={`${styles["text-bodoni"]} text-5xl font-bold mb-10`}>About Us</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Map over the list and create HTML elements for each objective */}
         {objectives.map((objective, index) => (
           <div key={index} className="border-b-2 border-gray-200 pb-4">
-            <h2 className="text-2xl font-bold mb-2">{objective.title}</h2>
+            <h2 className={`${styles["text-bodoni"]} text-2xl font-bold mb-2`}>{objective.title}</h2>
             <p className="text-lg">{objective.description}</p>
           </div>
         ))}
