@@ -37,9 +37,15 @@
 
 Click to get Figma design [here](https://www.figma.com/design/Hl0uI7MqdoUpwYXppOc92p/Untitled?node-id=0-1&t=uGb1T9B1DqPJRaMY-1)
 
+
+## Try [Project](https://greenlanding.sauravkumarmahato.com.np/home)
+```
+https://greenlanding.sauravkumarmahato.com.np/home
+```
+
 ## Demo
 
-Demo of the [project]().
+Demo of the [project](https://github.com/SauravKumarMahato/GreenLanding/assets/83631265/0d3775a5-487d-4f16-a026-1184588bc273).
 
 https://github.com/SauravKumarMahato/GreenLanding/assets/83631265/0d3775a5-487d-4f16-a026-1184588bc273
 
