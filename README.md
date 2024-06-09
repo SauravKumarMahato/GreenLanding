@@ -77,6 +77,12 @@ Make sure that you have `npm` or `yarn` and `Node.js` installed on your machine.
    yarn run dev
    ```
 
+3. Navigate to :
+
+   ```bash
+  http://localhost:3000/home
+   ```
+
 ## Dependencies
 
 - NextJS
