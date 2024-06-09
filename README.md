@@ -74,7 +74,7 @@ Make sure that you have `npm` or `yarn` and `Node.js` installed on your machine.
 2. Installation of node packages
 
    ```bash
-    yarn
+    yarn install
    ```
 
 3. Running the project:
