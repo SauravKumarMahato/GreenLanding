@@ -29,19 +29,21 @@ const Contribute: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8" id="services">
       {/* <h1 className="text-5xl font-bold mb-10">Gallery</h1> */}
-      <div className={`${styles["text-bodoni"]} my-4 `}>
-        <h1 className="text-6xl text-center">
+      <div className={`${styles["text-bodoni"]} my-4 px-4`}>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center">
           <TypingAnimation speed={50} text="Join the Green Revolution Today" />
         </h1>
-        <h1 className="text-5xl text-center">
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center mt-4">
           <TypingAnimation
             speed={50}
             text="Choose Your Path to Make a Difference Today!"
           />
         </h1>
       </div>
+
+
 
       <div className="flex flex-wrap justify-center">
         {cards.map((card, index) => (

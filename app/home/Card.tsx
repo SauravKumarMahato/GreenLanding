@@ -37,7 +37,7 @@ const Card: React.FC<CardProps> = ({
         </div>
         <p className="text-gray-700 text-base text-center">{description}</p>
       </div>
-      <div className="rounded-md border-solid bg-green-400 mx-36 px-2 py-2 text-center">{text}</div>
+      <div className="rounded-md border-solid bg-green-400 mx-4 md:mx-36 lg:mx-28 px-2 py-2 text-center">{text}</div>
       <div className="px-6 pt-4 pb-2">
         {tags.map((tag, index) => (
           <span

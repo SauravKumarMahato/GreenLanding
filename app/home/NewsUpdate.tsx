@@ -22,8 +22,8 @@ const NewsUpdate: React.FC = () => {
   ];
 
   return (
-    <div className="flex items-center">
-      <div className="flex mx-auto py-8 text-center ">
+    <div className="flex items-center" id="news">
+      <div className="flex flex-col md:flex-row mx-auto py-8 text-center ">
         {/* <h1 className="text-5xl font-bold mb-10">Gallery</h1> */}
         <div className={`${styles["text-bodoni"]} mx-20 mt-8 `}>
           <h1 className={`${styles["text-bodoni"]} text-5xl text-center`}>
@@ -37,18 +37,21 @@ const NewsUpdate: React.FC = () => {
             height={600}
           />
         </div>
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            {cards.map((card, index) => (
+              <Card
+                key={index}
+                image={card.image}
+                title={card.title}
+                description={card.description}
+                tags={card.tags}
+                text={"Learn More"}
 
-        <div className="grid grid-cols-2 justify-center">
-          {cards.map((card, index) => (
-            <Card
-              key={index}
-              image={card.image}
-              title={card.title}
-              description={card.description}
-              tags={card.tags}
-              text={"Learn More"}
-            />
-          ))}
+              />
+            ))}
+          </div>
+
         </div>
       </div>
     </div>
