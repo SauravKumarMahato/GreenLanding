@@ -7,6 +7,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   
   .plant_layout {
@@ -64,7 +65,7 @@
   .text-bodoni {
     font-family: 'Bodoni', serif;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     .plant_layout {
         background-image: none;
     }
