@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="px-4 sm:px-10 md:px-20 lg:px-28 xl:px-40">
+    <div className="px-4 sm:px-10 md:px-20 lg:px-28 xl:px-40" id="home">
       <p
         className={`${styles["text-bodoni"]} text-5xl sm:text-6xl md:text-7xl lg:text-8xl mx-0 sm:mx-10 md:mx-20 lg:mx-28 mt-10 sm:mt-14 md:mt-18 lg:mt-20 text-center`}
       >
