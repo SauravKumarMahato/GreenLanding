@@ -18,7 +18,7 @@
     height: 550px;
     display: flex;
     flex-direction: column;
-  }
+}
 
   .contribute {
     background-image: url('/green.jpg');
@@ -47,6 +47,10 @@
     background-color: #f7f5f2;
   }
 
+  .news_update {
+    background-color: #f7f5f2;
+  }
+
   /* bodoni.module.css */
 
 @font-face {
@@ -60,4 +64,8 @@
   .text-bodoni {
     font-family: 'Bodoni', serif;
   }
-  
+  @media (max-width: 768px) {
+    .plant_layout {
+        background-image: none;
+    }
+}
