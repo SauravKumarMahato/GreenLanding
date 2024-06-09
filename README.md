@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <p align="center">GreenLanding</p>
 
-## Getting Started
+<br/>
+<p align="center">
+    <strong>Foster an eco-friendly community and create a better world for future generations.</strong>
+</p>
+<br/>
 
-First, run the development server:
+<p align="center">
+    <p align="center">
+        <a href="https://github.com/SauravKumarMahato/GreenLanding" target="blank">
+            <img src="https://img.shields.io/github/watchers/SauravKumarMahato/GreenLanding?style=for-the-badge&logo=appveyor" alt="Watchers"/>
+        </a>
+        <a href="https://github.com/SauravKumarMahato/GreenLanding/fork" target="blank">
+            <img src="https://img.shields.io/github/forks/SauravKumarMahato/GreenLanding?style=for-the-badge&logo=appveyor" alt="Forks"/>
+        </a>
+        <a href="https://github.com/SauravKumarMahato/GreenLanding/stargazers" target="blank">
+            <img src="https://img.shields.io/github/stars/SauravKumarMahato/GreenLanding?style=for-the-badge&logo=appveyor" alt="Star"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/SauravKumarMahato/GreenLanding/issues" target="blank">
+            <img src="https://img.shields.io/github/issues/SauravKumarMahato/GreenLanding.svg?style=for-the-badge&logo=appveyor" alt="Issue"/>
+        </a>
+        <a href="https://github.com/SauravKumarMahato/GreenLanding/pulls" target="blank">
+            <img src="https://img.shields.io/github/issues-pr/SauravKumarMahato/GreenLanding.svg?style=for-the-badge&logo=appveyor" alt="Open Pull Request"/>
+        </a>
+    </p>
+    <p align="center">
+        <a href="https://github.com/SusheelThapa/Trendeo/blob/master/LICENSE" target="blank">
+            <img src="https://img.shields.io/github/license/SauravKumarMahato/GreenLanding?style=for-the-badge&logo=appveyor" alt="License" />
+        </a>
+    </p>
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Figma Design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Chick to get Figma design [here]()
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Click here for demo of the project [here]().
 
-## Learn More
+## Features 
+- Responsive web application
+- User friendly interface
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Make sure that you have `npm` or `yarn` and `Node.js` installed on your machine.
 
-## Deploy on Vercel
+### Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/SauravKumarMahato/GreenLanding.git
+   cd GreenLanding
+
+   ```
+
+2. Installation of node packages
+
+   ```bash
+    yarn
+   ```
+
+3. Running the project:
+
+   ```bash
+   yarn run dev
+   ```
+
+## Dependencies
+
+- NextJS
+- Tailwind CSS
+
+
+## Contributing
+
+You are welcome to contribute to enhance and improve GreenLanding. Feel free to submit issues, feature requests, or pull requests. Please adhere to our Code of Conduct.
+
+## License
+
+This project is licensed under the [MIT License](/LICENSE).
