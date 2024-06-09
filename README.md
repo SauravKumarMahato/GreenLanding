@@ -80,7 +80,7 @@ Make sure that you have `npm` or `yarn` and `Node.js` installed on your machine.
 3. Navigate to :
 
    ```bash
-  http://localhost:3000/home
+      http://localhost:3000/home
    ```
 
 ## Dependencies
