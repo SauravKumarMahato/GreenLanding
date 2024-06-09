@@ -29,7 +29,7 @@ const Contribute: React.FC = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto py-8" id="services">
       {/* <h1 className="text-5xl font-bold mb-10">Gallery</h1> */}
       <div className={`${styles["text-bodoni"]} my-4 px-4`}>
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center">

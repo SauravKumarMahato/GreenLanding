@@ -22,7 +22,7 @@ const NewsUpdate: React.FC = () => {
   ];
 
   return (
-    <div className="flex items-center">
+    <div className="flex items-center" id="news">
       <div className="flex flex-col md:flex-row mx-auto py-8 text-center ">
         {/* <h1 className="text-5xl font-bold mb-10">Gallery</h1> */}
         <div className={`${styles["text-bodoni"]} mx-20 mt-8 `}>
