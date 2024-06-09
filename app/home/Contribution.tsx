@@ -54,7 +54,7 @@ const Contribute: React.FC = () => {
               title={card.title}
               description={card.description}
               tags={card.tags}
-              text={"Contribute"}
+              text="Contribute"
             />
           </PopupAnimation>
 
