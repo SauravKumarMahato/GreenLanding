@@ -6,7 +6,7 @@ const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const scrollToSection = (id: string) => {
-    const section = document.querySelector(id);
+    const section = document.querySelector(id) as HTMLElement;
     if (section) {
       window.scrollTo({
         top: section.offsetTop,
@@ -14,6 +14,7 @@ const Navigation: React.FC = () => {
       });
     }
   };
+
 
   return (
     <div className="my-20">
