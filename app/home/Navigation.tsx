@@ -124,7 +124,7 @@ const Navigation: React.FC = () => {
                   href="#contact"
                   className="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0"
                 >
-                  New`&apos;`s and Update
+                  New&apos;s and Update
                 </a>
               </li>
               <li className="md:hidden">
