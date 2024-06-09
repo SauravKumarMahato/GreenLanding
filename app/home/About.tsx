@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './layout.module.css'
+import PopupAnimation from "./PopupAnimation";
 
 const AboutPage: React.FC = () => {
   const objectives = [
@@ -43,10 +44,12 @@ const AboutPage: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Map over the list and create HTML elements for each objective */}
         {objectives.map((objective, index) => (
-          <div key={index} className="border-b-2 border-gray-200 pb-4">
-            <h2 className={`${styles["text-bodoni"]} text-2xl font-bold mb-2`}>{objective.title}</h2>
-            <p className="text-lg">{objective.description}</p>
-          </div>
+          <PopupAnimation key={index}>
+            <div key={index} className="border-b-2 border-gray-200 pb-4">
+              <h2 className={`${styles["text-bodoni"]} text-2xl font-bold mb-2`}>{objective.title}</h2>
+              <p className="text-lg">{objective.description}</p>
+            </div>
+          </PopupAnimation>
         ))}
       </div>
     </div>

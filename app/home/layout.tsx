@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import AboutPage from "./About";
 import BaseFooter from "./BaseFooter";
 import Contribute from "./Contribution";
+import PopupAnimation from "./PopupAnimation";
 import NewsUpdate from "./NewsUpdate";
 
 type LayoutProps = {
@@ -18,7 +19,9 @@ const Layout = ({ children }: LayoutProps) => {
         <div>
           <Navigation />
         </div>
-        <div className={styles.plant_layout}>{children}</div>
+        <PopupAnimation>
+          <div className={styles.plant_layout}>{children}</div>
+        </PopupAnimation>
 
         <footer className={styles.footer}>
           <Footer />
