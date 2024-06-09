@@ -35,7 +35,7 @@
 
 ## Figma Design
 
-Chick to get Figma design [here]()
+Chick to get Figma design [here](https://www.figma.com/design/Hl0uI7MqdoUpwYXppOc92p/Untitled?node-id=0-1&t=uGb1T9B1DqPJRaMY-1)
 
 ## Demo
 
