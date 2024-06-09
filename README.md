@@ -39,7 +39,11 @@ Chick to get Figma design [here](https://www.figma.com/design/Hl0uI7MqdoUpwYXppO
 
 ## Demo
 
-Click here for demo of the project [here]().
+Demo of the [project]().
+
+https://github.com/SauravKumarMahato/GreenLanding/assets/83631265/0d3775a5-487d-4f16-a026-1184588bc273
+
+
 
 ## Features 
 - Responsive web application
